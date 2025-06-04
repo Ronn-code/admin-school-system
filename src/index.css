@@ -258,6 +258,7 @@
   }
   .main-top .students, .main-top .balance, .main-top .teachers{
     width: 78%;
+    margin-bottom: 2rem;
   }
   .student-top, .teacher-top, .balance-top{
     display: flex;
@@ -283,6 +284,7 @@
     width: 80%;
     border-radius: 10px;
     margin-left: 1rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     text-align: center;
     box-shadow: 2px 2px 4px #707070;
