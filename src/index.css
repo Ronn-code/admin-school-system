@@ -373,8 +373,8 @@
   .main-top .students,
   .main-top .teachers,
   .main-top .balance {
-    width: 90%;
-    margin: 0 auto 1rem auto;
+    width: 60%;
+    margin-left: 1rem;
   }
 
   .student-top,
