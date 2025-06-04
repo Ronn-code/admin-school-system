@@ -1,0 +1,84 @@
+.students-page{
+    height: 100vh;
+    border: none;
+    font-family: Roboto;
+}
+.students-page h2{
+    color: #085785;
+    font-size: 1.6rem;
+}
+.sfbars{
+    display: flex;
+    gap: 0.6rem;
+}
+.sfbars .search{
+    height: 1.6rem;
+    width: 30%;
+    font-size: 0.9rem;
+    border: 1px solid #085785;
+    color: #2e3031;
+}
+.sfbars .filter{
+    width: 10rem;
+    border: 1px solid #085785;
+    color: #2e3031;  
+}
+.filter option{
+    background-color: white;
+    color: #000;
+}
+.sfbars #back-btn{
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 6px;
+    background: #c2ced4;
+    color: #2e3031;
+    cursor: pointer;
+}
+.sfbars #back-btn:hover{
+    background-color: #085785;
+    color: white;
+    transition: 0.5s;
+}
+.students-page h3{
+    font-size: 1.1rem;
+    margin-top: 4rem;
+}
+.students-page table{
+    width: 80%;
+    border-radius: 10px;
+    padding: 0.6rem;
+    border-bottom: 1px solid #2e3031;
+}
+.students-page table thead tr{
+    text-align:left;
+    font-size: 0.9rem;
+    color: #085785;
+    
+}
+.students-page table tbody td{
+    text-align: left;
+    height: 2rem;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+.tbtns{
+    display: flex;
+    gap: 1rem;
+}
+.tbtns #view-btn, #edit-btn, #delete-btn{
+    background: #c2ced4;
+    border: none;
+    border-radius: 10px;
+    width: 4rem;
+    font-size: 0.7rem;
+    color: white;
+    cursor: pointer;
+
+}
+.tbtns #view-btn:hover, #edit-btn:hover, #delete-btn:hover{
+    background-color: #085785;
+    transition: 0.5s;
+}

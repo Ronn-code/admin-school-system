@@ -1,0 +1,239 @@
+.hero-home{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 14rem auto 23rem;
+
+
+  /*---------------------------left side------------------------------*/
+}
+.left-aside{
+  width: 20%;
+  margin-top: 3rem;
+}
+.left-aside h2{
+  font-size: 1rem;
+  color: #085785;
+}
+.left-aside .sidebar a{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #131212;
+  margin-left: 0.7rem;
+  transition: all 300ms ease;
+  margin-bottom: 1.2rem;
+  
+}
+.left-aside .sidebar a.active{
+  color: #085785;
+  font-size: 1.2rem;
+}
+.left-aside .sidebar a.active:hover{
+  color: #085785;
+  font-size: 1.2rem;
+}
+.left-aside .sidebar .nav1:hover{
+  box-shadow: 0 0.2rem 0.3rem #dce1eb;
+  color: #085785;
+  width: 8rem;
+  
+}
+.left-aside .middle-sidebar{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 1rem;
+}
+.left-aside .middle-sidebar a{
+  display: flex;
+  color: #302d2d; 
+  margin-left: 0.5rem;
+  gap: 1.7rem;
+  font-size: 0.8rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  position: relative;
+  height: 2rem;
+  transition: all 300ms ease;
+  text-decoration: none;
+}
+.left-aside .middle-sidebar a:hover{
+  box-shadow: 0 0.2rem 0.3rem #dce1eb;
+  color: #085785;
+  width: 10rem;
+}
+.left-aside .bottom-sidebar{
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  position: relative;
+  top: 1rem;
+}
+.left-aside .bottom-sidebar a{
+    display: flex;
+  color: #302d2d; 
+  margin-left: 0.5rem;
+  gap: 1.7rem;
+  font-size: 0.8rem;
+  align-items: center;
+  position: relative;
+ height: 2rem;
+  transition: all 300ms ease;
+  text-decoration: none;
+}
+.left-aside .bottom-sidebar a:hover{
+   box-shadow: 0 0.2rem 0.3rem #dce1eb;
+  color: #085785;
+  width: 10rem;
+}
+.middle, .bottom{
+  margin-top: 2rem;
+}
+
+/*------------------------------main------------*/
+.main-top{
+  margin-top: 4rem;
+  display: flex;
+  gap: 2.2rem;
+}
+.students{
+  background: #d6d6d8;
+  width: 12rem;
+  height: 7rem;
+  border-radius: 20px;
+  box-shadow: none;
+}
+.students:hover, .teachers:hover, .balance:hover{
+  box-shadow: 2px 2px 4px #191a19;
+}
+.students h2{
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  color: #085785;
+}
+.student-top{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-left: 0.5rem;
+  color: #3a3b3b;
+}
+.teachers{
+  background: #aae7d0;
+  width: 12rem;
+  height: 7rem;
+  border-radius: 20px;
+  box-shadow: none;
+}
+.teachers h2{
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  color: #085785;
+}
+.teacher-top{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-left: 0.5rem;
+  color: #3a3b3b;
+}
+.balance{
+  background: #ddb5e7;
+  width: 12rem;
+  height: 7rem;
+  border-radius: 20px;
+  box-shadow: none;
+}
+.balance h2{
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  color: #085785;
+}
+.balance-top{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-left: 0.5rem;
+  color: #3a3b3b;
+}
+.main-middle{
+  margin-top: 4rem;
+}
+.main-middle h4{
+  margin-left: 2rem;
+}
+.bar-chart {
+  width: 90%;
+  height: 300px;
+}
+.main-bottom{
+  margin-top: 2rem;
+}
+.main-bottom h4{
+  margin-left: 2rem;
+}
+.main-bottom table{
+  background: rgb(248, 245, 245);
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 2px 2px 4px #707070;
+  transition: all 300 ease;
+}
+.main-bottom table:hover{
+  box-shadow: none;
+}
+.main-bottom table tbody td{
+  height: 2.0rem;
+  color:#302d2d;
+  font-size: 0.9rem;
+  text-align: start;
+}
+.main-bottom table thead tr{
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+/*--------------------right side-----------------*/
+.right-aside{
+  margin-top: 2rem;
+}
+.right-aside h4{
+  color: #085785;
+}
+.right-aside table tbody td{
+  height: 2rem;
+  color: #302d2d;
+  font-size: 0.9rem;
+  text-align: start;
+}
+.right-aside table thead tr{
+  font-size: 0.9rem;
+  text-align: left;
+}
+.right-aside .right-bottom h4{
+  color: #085785;
+  margin-top: 3rem;
+}
+.right-aside .right-bottom h5{
+  margin-left: 6rem;
+}
+.right-footer{
+  margin-left: 6rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.right-footer .boys span{
+  color: #085785;
+}
+.right-footer .girls span{
+  color: #08855b;
+}
+
+

@@ -1,0 +1,67 @@
+.exam-page{
+    font-family: Roboto;
+    border: none;
+    height: 100vh;
+}
+.top-exam-page{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.exam-page h2{
+    color: #085785;
+    font-size: 1.6rem;
+}
+#back-btn{
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 6px;
+    background: #c2ced4;
+    color: #2e3031;
+    cursor: pointer;
+}
+#back-btn:hover{
+    color: white;
+    transition: 0.5s;
+    background: #085785;
+}
+.exam-page h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 4rem;
+}
+.exam-page table{
+    width: 80%;
+    padding: 0.2rem;
+}
+.exam-page table thead tr{
+    text-align: left;
+    font-size: 0.9rem;
+    color: #085785;
+}
+.exam-page table tbody td{
+    text-align: start;
+    font-size: 0.7rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+.exam-page h4{
+    font-size: 0.8rem;
+    margin-left: 40%;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.shares{
+    display: flex;
+    gap: 2rem;
+    color: #085785;
+    margin-left: 40%;
+}
+.shares span{
+    cursor: pointer;
+}
+.shares span:hover{
+    color: #2e3031;
+}

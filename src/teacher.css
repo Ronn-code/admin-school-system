@@ -1,0 +1,82 @@
+
+.teacher-page{
+    height: 100vh;
+    border: none;
+    font-family: Roboto;
+}
+.teacher-page h2{
+    color: #085785;
+    font-size: 1.6rem;
+}
+.sfbars{
+    display: flex;
+    gap: 0.6rem;
+}
+.sfbars .search-bar{
+    height: 1.6rem;
+    width: 30%;
+    font-size: 0.9rem;
+    border: 1px solid #085785;
+    color: #2e3031;
+}
+.sfbars .filter{
+    width: 10rem;
+    border: 1px solid #085785;
+    color: #2e3031;  
+}
+.filter option{
+    background-color: white;
+    color: #000;
+}
+.sfbars #back-btn{
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 6px;
+    background: #c2ced4;
+    color: #2e3031;
+    cursor: pointer;
+}
+.sfbars #back-btn:hover{
+    background-color: #085785;
+    color: white;
+    transition: 0.5s;
+}
+.teacher-page h3{
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+.teacher-page table{
+    width: 80%;
+    border-radius: 10px;
+    padding: 0.2rem;
+    
+}
+.teacher-page table thead tr{
+    font-size: 0.9rem;
+    color: #085785;
+    text-align: left;
+    
+    
+}
+.teacher-page table tbody td{
+    text-align: start;
+    font-size: 0.7rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+.action-btn #view-btn{
+    background: #c2ced4;
+    border: none;
+    border-radius: 10px;
+    width: 4rem;
+    font-size: 0.7rem;
+    color: white;
+    cursor: pointer;
+    height: 1.6rem;
+}
+#view-btn:hover{
+    background-color: #085785;
+    transition: 0.5s;
+}

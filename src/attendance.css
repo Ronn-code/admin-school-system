@@ -1,0 +1,113 @@
+.attendance-page{
+    font-family: Roboto;
+    border: none;
+    height: 100vh;
+}
+.topper{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.attendance-page h2{
+    color: #085785;
+    font-size: 1.6rem;
+}
+.attendance-top{
+    display: flex;
+    gap: 1rem;
+}
+.attendance-top .search-bar{
+    height: 1.4rem;
+    border: 1.2px solid #085785;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+.attendance-top .filter{
+    height: 1.5rem;
+    width: 6rem;
+    border: 1.2px solid #085785;
+    border-radius: 5px;
+    color: #525658;
+}
+ .calender{
+    border-radius: 3px;
+    border: 1.2px solid #085785;
+    width: 10rem;
+    height: 1.4rem;
+    font-size: 0.8rem;
+    color: #085785;
+}
+h4{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+h3{
+    margin-top: 2rem;
+}
+.search-student{
+    display: flex;
+    gap: 1rem;
+}
+.search-s{
+    height: 1.4rem;
+    border-radius: 5px;
+    border: 1.2px solid #085785;
+    width: 16rem;
+    text-align: start;
+    padding: 1px;
+}
+.attendance-page table{
+    width: 60%;
+    padding: 0.6rem;
+}
+table thead tr{
+    text-align: left;
+    font-size: 0.9rem;
+    color: #085785;
+}
+table tbody td{
+    text-align: start;
+    font-size: 0.7rem;
+    height: 2rem;
+}
+.chart-info{
+    height: 200px;
+    display: flex;
+    
+}
+.btns{
+    display: flex;
+    margin-right: 40rem;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.btns h5{
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: #085785;
+    cursor: pointer;
+}
+.btns span{
+    color: #111111;
+    cursor: pointer;
+}
+.circle-colors{
+    display: flex;
+    gap: 1.4rem;
+}
+.circle-colors h5{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.circle-colors #green{
+    color: #4caf50;
+    font-size: 1rem;
+}
+.circle-colors #orange{
+    color: #ff9800;
+    font-size: 1rem;
+}
+.circle-colors #red{
+    color: #f44336;
+    font-size: 1rem;
+}
