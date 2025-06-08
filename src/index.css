@@ -237,209 +237,6 @@
 }
 
 
-@media (max-width: 375px) {
-  fieldset.hero-home {
-    display: block;
-    overflow-x: hidden;
-  }
-
-  aside.left-aside, aside.right-aside {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  main h3{
-    padding-top: 2rem;
-
-  }
-
-  .main-top, .main-middle, .main-bottom {
-    width: 100%;
-    overflow-x: auto;
-  }
-  .main-top .students, .main-top .balance, .main-top .teachers{
-    width: 78%;
-    margin-bottom: 2rem;
-  }
-  .student-top, .teacher-top, .balance-top{
-    display: flex;
-    gap: 8rem;
-  }
-
-  .main-top {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .bar-chart {
-    height: 250px;
-    width: 80%;
-  }
-  .main-bottom h4{
-    font-size: 1.2rem;
-    margin-left: 1rem;
-  }
-  .main-bottom table{
-    background: rgb(248, 245, 245);
-    width: 80%;
-    border-radius: 10px;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    text-align: center;
-    box-shadow: 2px 2px 4px #707070;
-    transition: all 300 ease;
-  }
-  .main-bottom table:hover{
-  box-shadow: none;
-}
-.main-bottom table tbody td{
-  height: 1.2rem;
-  color:#302d2d;
-  font-size: 0.5rem;
-  text-align: start;
-}
-.main-bottom table thead tr{
-  font-size: 0.7rem;
-  text-align: left;
-}
-.right-aside .right-top h4{
-  font-size: 1.2rem;
-}
-.right-top table{
-  width: 80%;
-}
-.right-aside table tbody td{
-  height: 1.2rem;
-  font-size: 0.7rem;
-  text-align: start;
-}
-.right-aside table thead tr{
-  font-size: 0.8rem;
-  text-align: left;
-}
-.right-aside .right-bottom h5{
-  margin-left: 1rem;
-}
-.right-aside .right-bottom .right-footer{
-  display: flex;
-  margin-left: 1rem;
-}
-  
-  .middle-sidebar a,
-  .bottom-sidebar a {
-    flex-direction: row;
-    justify-content: start;
-    gap: 8px;
-  }
-
-  .right-bottom {
-    height: 300px;
-  }
-
-  .sidebar a {
-    font-size: 14px;
-    padding: 8px 10px;
-  }
-
-  .material-icons-sharp {
-    font-size: 18px;
-  }
-}
-
-
-
-@media (max-width: 480px) {
-  fieldset.hero-home {
-    display: block;
-    overflow-x: hidden;
-  }
-
-  aside.left-aside, aside.right-aside {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  main h3 {
-    padding-top: 2rem;
-  }
-
-  .main-top {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .main-top .students,
-  .main-top .teachers,
-  .main-top .balance {
-    width: 60%;
-    margin-left: 1rem;
-  }
-
-  .student-top,
-  .teacher-top,
-  .balance-top {
-    display: flex;
-    gap: 12rem;
-  }
-
-  .main-middle .bar-chart {
-    width: 90%;
-    height: 300px;
-    margin: 0 auto;
-  }
-
-  .main-bottom h4,
-  .right-aside .right-top h4 {
-    font-size: 1.4rem;
-    margin-left: 1rem;
-  }
-
-  .main-bottom table,
-  .right-top table {
-    width: 90%;
-    margin-left: 1rem;
-    font-size: 0.8rem;
-  }
-
-  .main-bottom table thead tr,
-  .right-aside table thead tr {
-    font-size: 0.9rem;
-  }
-
-  .main-bottom table tbody td,
-  .right-aside table tbody td {
-    font-size: 0.75rem;
-  }
-
-  .right-aside .right-bottom h5,
-  .right-aside .right-bottom .right-footer {
-    margin-left: 1rem;
-  }
-
-  .right-bottom {
-    height: 320px;
-  }
-
-  .middle-sidebar a,
-  .bottom-sidebar a {
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 10px;
-  }
-
-  .sidebar a {
-    font-size: 16px;
-    padding: 10px 14px;
-  }
-
-  .material-icons-sharp {
-    font-size: 20px;
-  }
-}
-
-
 
 @media (max-width: 768px) {
   fieldset.hero-home {
@@ -553,3 +350,210 @@
     font-size: 22px;
   }
 }
+
+
+
+@media (max-width: 480px) {
+  fieldset.hero-home {
+    display: block;
+    overflow-x: hidden;
+  }
+
+  aside.left-aside, aside.right-aside {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  main h3 {
+    padding-top: 2rem;
+  }
+
+  .main-top {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .main-top .students,
+  .main-top .teachers,
+  .main-top .balance {
+    width: 85%;
+    margin-left: 1rem;
+  }
+
+  .student-top,
+  .teacher-top,
+  .balance-top {
+    display: flex;
+    gap: 10rem;
+  }
+
+  .main-middle .bar-chart {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .main-bottom h4,
+  .right-aside .right-top h4 {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+  }
+
+  .main-bottom table,
+  .right-top table {
+    width: 90%;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .main-bottom table thead tr,
+  .right-aside table thead tr {
+    font-size: 0.9rem;
+  }
+
+  .main-bottom table tbody td,
+  .right-aside table tbody td {
+    font-size: 0.75rem;
+  }
+
+  .right-aside .right-bottom h5,
+  .right-aside .right-bottom .right-footer {
+    margin-left: 1rem;
+  }
+
+  .right-bottom {
+    height: 320px;
+  }
+
+  .middle-sidebar a,
+  .bottom-sidebar a {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .sidebar a {
+    font-size: 16px;
+    padding: 10px 14px;
+  }
+
+  .material-icons-sharp {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  fieldset.hero-home {
+    display: block;
+    overflow-x: hidden;
+  }
+
+  aside.left-aside, aside.right-aside {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  main h3{
+    padding-top: 2rem;
+
+  }
+
+  .main-top, .main-middle, .main-bottom {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .main-top .students, .main-top .balance, .main-top .teachers{
+    width: 78%;
+    margin-bottom: 2rem;
+  }
+  .student-top, .teacher-top, .balance-top{
+    display: flex;
+    gap: 7rem;
+  }
+
+  .main-top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bar-chart {
+    height: 250px;
+    width: 80%;
+  }
+  .main-bottom h4{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  .main-bottom table{
+    background: rgb(248, 245, 245);
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 2px 2px 4px #707070;
+    transition: all 300 ease;
+  }
+  .main-bottom table:hover{
+  box-shadow: none;
+}
+.main-bottom table tbody td{
+  height: 1.2rem;
+  color:#302d2d;
+  font-size: 0.5rem;
+  text-align: start;
+}
+.main-bottom table thead tr{
+  font-size: 0.7rem;
+  text-align: left;
+}
+.right-aside .right-top h4{
+  font-size: 1.2rem;
+}
+.right-top table{
+  width: 80%;
+}
+.right-aside table tbody td{
+  height: 1.2rem;
+  font-size: 0.7rem;
+  text-align: start;
+}
+.right-aside table thead tr{
+  font-size: 0.8rem;
+  text-align: left;
+}
+.right-aside .right-bottom h5{
+  margin-left: 1rem;
+}
+.right-aside .right-bottom .right-footer{
+  display: flex;
+  margin-left: 1rem;
+}
+  
+  .middle-sidebar a,
+  .bottom-sidebar a {
+    flex-direction: row;
+    justify-content: start;
+    gap: 8px;
+  }
+
+  .right-bottom {
+    height: 300px;
+  }
+
+  .sidebar a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .material-icons-sharp {
+    font-size: 18px;
+  }
+}
+
+
+
+
