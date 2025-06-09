@@ -80,3 +80,181 @@
     background-color: #085785;
     transition: 0.5s;
 }
+
+
+@media screen and (max-width: 768px) {
+  .teacher-page {
+    padding: 1.5rem;
+    height: auto;
+    overflow-x: auto;
+  }
+
+  .teacher-page h2 {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  .sfbars {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .sfbars .search-bar,
+  .sfbars .filter {
+    width: auto;
+    flex: 1;
+    font-size: 1.1rem;
+    height: 2.8rem;
+  }
+
+  .sfbars #back-btn {
+    width: 8rem;
+    height: 2.4rem;
+    margin-bottom: 0;
+  }
+
+  .teacher-page h3 {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    text-align: left;
+  }
+
+  .teacher-page table {
+    width: 100%;
+    font-size: 0.9rem;
+    overflow-x: auto;
+  }
+
+  .teacher-page table thead tr {
+    font-size: 1rem;
+  }
+
+  .teacher-page table tbody td {
+    font-size: 0.75rem;
+  }
+
+  .action-btn #view-btn {
+    width: 4.2rem;
+    font-size: 0.9rem;
+    height: 2rem;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .teacher-page {
+    padding: 1rem;
+    height: auto;
+    overflow-x: auto;
+  }
+
+  .teacher-page h2 {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+  
+  .sfbars {
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: stretch;
+  }
+
+  .sfbars .search-bar,
+  .sfbars .filter {
+    width: 100%;
+    font-size: 1rem;
+    height: 2.6rem;
+  }
+
+  .sfbars #back-btn {
+    width: 25%;
+    margin-bottom: 1rem;
+  }
+
+  .teacher-page h3 {
+    font-size: 1.1rem;
+    margin-top: 2.5rem;
+    text-align: left;
+  }
+
+  .teacher-page table {
+    width: 100%;
+    font-size: 0.85rem;
+    overflow-x: auto;
+  }
+
+  .teacher-page table thead tr {
+    font-size: 0.9rem;
+  }
+
+  .teacher-page table tbody td {
+    font-size: 0.65rem;
+  }
+
+  .action-btn #view-btn {
+    width: 3.8rem;
+    font-size: 0.8rem;
+    height: 1.8rem;
+  }
+}
+
+
+
+@media screen and (max-width: 375px) {
+  .teacher-page {
+    padding: 1rem;
+    height: auto;
+    overflow-x: auto;
+  }
+
+  .teacher-page h2 {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+  
+  .sfbars {
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: stretch;
+  }
+
+  .sfbars .search-bar,
+  .sfbars .filter
+  {
+    width: 100%;
+    font-size: 0.95rem;
+    height: 2.4rem;
+  }
+  .sfbars #back-btn{
+    width: 20%;
+    margin-bottom: 1rem;
+  }
+
+  .teacher-page h3 {
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .teacher-page table {
+    width: 100%;
+    font-size: 0.8rem;
+    overflow-x: auto;
+  }
+
+  .teacher-page table thead tr {
+    font-size: 0.85rem;
+  }
+
+  .teacher-page table tbody td {
+    font-size: 0.5rem;
+  }
+
+  .action-btn #view-btn {
+    width: 3.2rem;
+    font-size: 0.7rem;
+    height: 1.6rem;
+  }
+}

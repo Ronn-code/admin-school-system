@@ -4,11 +4,11 @@ import {Link} from 'react-router-dom';
 function Exam() {
   return (
     <fieldset className='exam-page'>
-        <div className='top-exam-page'>
-            <h2>Start Of Term II Exams 21<sup>st</sup>May 2025</h2>
-            <Link to='/'>
-            <button id='back-btn'>Home</button></Link>
-        </div>
+    
+        <h2>Start Of Term II Exams 21<sup>st</sup>May 2025</h2>
+        <Link to='/'>
+        <button id='back-btn'>Home</button></Link>
+        
         <h3>Form 1 Exam Timetable</h3>
         <table>
             <thead>

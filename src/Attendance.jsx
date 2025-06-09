@@ -26,20 +26,13 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 function Attendance() {
   return (
     <fieldset className="attendance-page">
-        <div className="topper">
-            <h2>Attendance Report 2025- All Classes</h2>
-            <Link to='/'>
-            <button id='back-btn'>Home</button></Link>
-        </div>
+        
+        <h2>Attendance Report 2025- All Classes</h2>
+        <Link to='/'>
+        <button id='back-btn'>Home</button></Link>
         <h4>Search for Classes individually</h4>
         <div className="attendance-top">
             <input type='text' className='search-bar'placeholder='search class'></input>
-            <select className='filter'>
-                <option value='A'>A</option>
-                <option value='B'>B</option>
-                <option value='C'>C</option>
-                <option value='D'>D</option>
-            </select>
             <input type='date' className='calender'></input>
             
         </div>
@@ -125,7 +118,7 @@ function Attendance() {
                   <PieChart width={300}  height={300}>
                     <Pie 
                       data={data}
-                      cx="20%"
+                      cx="40%"
                       cy="50%"
                       labelLine={false}
                       label={renderCustomizedLabel}
@@ -139,7 +132,8 @@ function Attendance() {
                     </Pie>
                  </PieChart> 
                 </ResponsiveContainer>
-                <div className="btns">
+            </div> 
+            <div className="btns">
                     <div className="save">
                         <span className='material-icons-sharp'>download</span>
                         <h5>Save attendance</h5>
@@ -156,8 +150,7 @@ function Attendance() {
                         <span className='material-icons-sharp'>refresh</span>
                         <h5>Reset</h5>
                     </div>
-                </div>
-            </div>      
+                </div>     
         </div>
     </fieldset>
   )
