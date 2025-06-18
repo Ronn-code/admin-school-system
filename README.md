@@ -17,5 +17,7 @@ This is the Admin Dashboard for a comprehensive School Management System. Built 
 - Icons: Google Material Icons
 - Responsive Design: Flexbox & Media Queries
 
+  contact me ronnthedeveloper@gmail.com
+
 
 
