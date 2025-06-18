@@ -1,12 +1,21 @@
-# React + Vite
+# 🏫 School Management System - Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the Admin Dashboard for a comprehensive School Management System. Built with modern frontend technologies, it allows administrators to efficiently manage users, monitor attendance, handle exams durations, and perform various school-related operations through a clean and responsive interface.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👥 Manage Users – Add, update, or delete students, teachers, and staff.
+📅 Attendance Tracking – View and manage student attendance records. 🛏️ **Room Allocation** – Allocate dormitories and classrooms to students.
+🗂️ Course Management – Assign subjects and manage class schedules.
+📊 Dashboard Overview – Summarized school data with charts and quick stats.
+🔐 Secure Authentication – Role-based login for admins.
+📱 Responsive Design – Optimized for both desktop and mobile use.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: HTML, CSS, JavaScript (React Framework)
+- Icons: Google Material Icons
+- Responsive Design: Flexbox & Media Queries
+
+
+
